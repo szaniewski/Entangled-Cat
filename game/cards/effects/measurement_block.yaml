@@ -1,0 +1,11 @@
+id: EFFECT_MEASUREMENT_BLOCK
+name: Measurement Block
+type: defense
+rarity: uncommon
+complexity: 2
+description: Prevent the opponent from measuring this turn.
+deck_count: 3
+effect:
+  block_opponent_measure: true
+tags:
+  - defense

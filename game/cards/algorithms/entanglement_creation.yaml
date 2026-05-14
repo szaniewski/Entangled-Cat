@@ -1,0 +1,7 @@
+id: ALG_ENTANGLEMENT_CREATION
+name: Entanglement Creation
+type: algorithm
+requirement_sequence: "H, CNOT"
+points: 10
+deck_count: 4
+description: Creates entangled qubits via a Hadamard gate followed by a controlled-NOT.

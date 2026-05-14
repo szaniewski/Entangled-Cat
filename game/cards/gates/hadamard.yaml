@@ -1,0 +1,13 @@
+id: GATE_H
+name: Hadamard
+type: gate
+symbol: H
+rarity: common
+complexity: 2
+description: Creates qubit superposition
+deck_count: 8
+effect:
+  superposition: true
+tags:
+  - single_qubit
+  - hadamard

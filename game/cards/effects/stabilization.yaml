@@ -1,0 +1,11 @@
+id: EFFECT_STABILIZATION
+name: Stabilization
+type: defense
+rarity: uncommon
+complexity: 2
+description: Protect your sequence from the next attack.
+deck_count: 3
+effect:
+  protect_next_turn: true
+tags:
+  - defense

@@ -1,0 +1,7 @@
+id: ALG_BB84_PROTOCOL
+name: BB84 Protocol
+type: algorithm
+requirement_sequence: "H or I, MX or MZ"
+points: 15
+deck_count: 4
+description: Uses alternating preparation and measurement bases for quantum key distribution.

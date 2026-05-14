@@ -1,0 +1,7 @@
+id: ALG_SUPERDENSE_CODING
+name: Superdense Coding
+type: algorithm
+requirement_sequence: "H, CNOT, CX or CZ, MZ"
+points: 20
+deck_count: 3
+description: Encodes two classical bits into one qubit using entanglement and corrections.

@@ -1,0 +1,13 @@
+id: GATE_MX
+name: X-basis Measurement
+type: gate
+symbol: MX
+rarity: common
+complexity: 1
+description: Readout in the Hadamard basis
+deck_count: 8
+effect:
+  measure_basis: X
+tags:
+  - measurement
+  - readout

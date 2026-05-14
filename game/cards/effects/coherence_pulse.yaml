@@ -1,0 +1,10 @@
+id: EFFECT_COHERENCE_PULSE
+name: Coherence Pulse
+type: effect
+rarity: common
+complexity: 1
+effect:
+  stability_recover: 1
+  draw: 1
+tags:
+  - support

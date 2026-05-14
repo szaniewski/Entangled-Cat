@@ -1,0 +1,13 @@
+id: GATE_MZ
+name: Z-basis Measurement
+type: gate
+symbol: MZ
+rarity: common
+complexity: 1
+description: Readout in the standard basis
+deck_count: 8
+effect:
+  measure_basis: Z
+tags:
+  - measurement
+  - readout

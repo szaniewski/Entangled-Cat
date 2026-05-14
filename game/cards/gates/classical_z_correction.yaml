@@ -1,0 +1,13 @@
+id: GATE_CZ
+name: Classical Z-Correction
+type: gate
+symbol: CZ
+rarity: rare
+complexity: 2
+description: Phase correction after Teleportation/Superdense
+deck_count: 4
+effect:
+  classical_correction: Z
+tags:
+  - classical
+  - correction

@@ -1,0 +1,7 @@
+id: ALG_GROVER
+name: Grover
+type: algorithm
+requirement_sequence: "H, OR, GD, MZ"
+points: 25
+deck_count: 3
+description: Uses Hadamard, Oracle, Grover Diffusion, and Z-basis measurement to amplify the marked state.

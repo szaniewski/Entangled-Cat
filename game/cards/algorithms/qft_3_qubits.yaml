@@ -1,0 +1,7 @@
+id: ALG_QFT_3_QUBITS
+name: QFT (3 qubits)
+type: algorithm
+requirement_sequence: "H, CR2, CR3, SWAP"
+points: 30
+deck_count: 2
+description: Performs a 3-qubit quantum Fourier transform using controlled rotations and swap.

@@ -1,0 +1,7 @@
+id: ALG_QUANTUM_TELEPORTATION
+name: Quantum Teleportation
+type: algorithm
+requirement_sequence: "H, CNOT, MZ, CX + CZ"
+points: 30
+deck_count: 2
+description: Sends a qubit state using entanglement, measurement, and classical corrections.

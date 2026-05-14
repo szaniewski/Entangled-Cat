@@ -1,0 +1,13 @@
+id: GATE_SWAP
+name: SWAP
+type: gate
+symbol: SWAP
+rarity: rare
+complexity: 3
+description: Swaps two qubits
+deck_count: 4
+effect:
+  swap_qubits: true
+tags:
+  - two_qubit
+  - swap

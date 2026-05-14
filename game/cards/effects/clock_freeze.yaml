@@ -1,0 +1,11 @@
+id: EFFECT_CLOCK_FREEZE
+name: Clock Freeze
+type: attack
+rarity: rare
+complexity: 3
+description: Block the opponent's next turn.
+deck_count: 2
+effect:
+  skip_opponent_turn: true
+tags:
+  - control

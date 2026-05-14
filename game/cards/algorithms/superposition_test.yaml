@@ -1,0 +1,7 @@
+id: ALG_SUPERPOSITION_TEST
+name: Superposition Test
+type: algorithm
+requirement_sequence: "H, Z, MZ"
+points: 10
+deck_count: 4
+description: Prepares and measures a qubit in superposition to verify phase behavior.

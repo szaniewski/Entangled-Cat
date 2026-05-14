@@ -1,0 +1,11 @@
+id: EFFECT_PHASE_NOISE
+name: Phase Noise
+type: attack
+rarity: uncommon
+complexity: 2
+description: Change a selected gate to Z.
+deck_count: 3
+effect:
+  transform_opponent_gate: Z
+tags:
+  - disruption

@@ -1,0 +1,13 @@
+id: GATE_GD
+name: Grover Diffusion
+type: gate
+symbol: GD
+rarity: rare
+complexity: 3
+description: Probability amplification in Grover's algorithm
+deck_count: 4
+effect:
+  grover_diffusion: true
+tags:
+  - algorithm
+  - amplitude_amplification

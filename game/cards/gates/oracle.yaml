@@ -1,0 +1,13 @@
+id: GATE_OR
+name: Oracle
+type: gate
+symbol: OR
+rarity: uncommon
+complexity: 3
+description: Black box f(x), action depends on algorithm
+deck_count: 6
+effect:
+  oracle: true
+tags:
+  - oracle
+  - black_box

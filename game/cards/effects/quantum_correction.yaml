@@ -1,0 +1,11 @@
+id: EFFECT_QUANTUM_CORRECTION
+name: Quantum Correction
+type: defense
+rarity: uncommon
+complexity: 2
+description: Recover a removed gate.
+deck_count: 3
+effect:
+  recover_removed_gate: 1
+tags:
+  - defense

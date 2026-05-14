@@ -1,0 +1,11 @@
+id: EFFECT_GATE_COPY
+name: Gate Copy
+type: effect
+rarity: rare
+complexity: 3
+description: Copy one gate from the opponent's sequence to your hand.
+deck_count: 3
+effect:
+  copy_opponent_gate: 1
+tags:
+  - utility

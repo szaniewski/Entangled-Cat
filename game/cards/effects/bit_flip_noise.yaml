@@ -1,0 +1,11 @@
+id: EFFECT_BIT_FLIP_NOISE
+name: Bit Flip Noise
+type: attack
+rarity: uncommon
+complexity: 2
+description: Change a selected gate to X.
+deck_count: 3
+effect:
+  transform_opponent_gate: X
+tags:
+  - disruption

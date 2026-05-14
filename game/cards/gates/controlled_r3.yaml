@@ -1,0 +1,13 @@
+id: GATE_CR3
+name: Controlled-R3
+type: gate
+symbol: CR3
+rarity: rare
+complexity: 3
+description: Conditional rotation by π/4
+deck_count: 4
+effect:
+  controlled_rotation: "π/4"
+tags:
+  - two_qubit
+  - phase

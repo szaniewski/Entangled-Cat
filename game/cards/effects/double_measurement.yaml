@@ -1,0 +1,11 @@
+id: EFFECT_DOUBLE_MEASUREMENT
+name: Double Measurement
+type: effect
+rarity: rare
+complexity: 4
+description: Execute two algorithms in your turn.
+deck_count: 2
+effect:
+  extra_algorithm: 1
+tags:
+  - combo

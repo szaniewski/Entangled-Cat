@@ -1,0 +1,13 @@
+id: GATE_CR2
+name: Controlled-R2
+type: gate
+symbol: CR2
+rarity: rare
+complexity: 3
+description: Conditional rotation by π/2
+deck_count: 4
+effect:
+  controlled_rotation: "π/2"
+tags:
+  - two_qubit
+  - phase

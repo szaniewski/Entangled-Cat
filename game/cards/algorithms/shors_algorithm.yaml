@@ -1,0 +1,7 @@
+id: ALG_SHORS_ALGORITHM
+name: Shor’s Algorithm
+type: algorithm
+requirement_sequence: "H, CNOT + CR2 + CR3 + SWAP, QFT, MZ"
+points: 40
+deck_count: 1
+description: Uses modular exponentiation and QFT to factor numbers with quantum speedup.

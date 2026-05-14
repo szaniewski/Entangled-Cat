@@ -1,0 +1,13 @@
+id: GATE_CNOT
+name: Controlled-NOT
+type: gate
+symbol: CNOT
+rarity: uncommon
+complexity: 3
+description: Flips target qubit if control is 1
+deck_count: 6
+effect:
+  controlled_not: true
+tags:
+  - two_qubit
+  - control

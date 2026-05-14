@@ -1,0 +1,11 @@
+id: EFFECT_DECOHERENCE
+name: Decoherence
+type: attack
+rarity: uncommon
+complexity: 2
+description: Remove one gate from the opponent's sequence.
+deck_count: 4
+effect:
+  remove_opponent_gate: 1
+tags:
+  - disruption

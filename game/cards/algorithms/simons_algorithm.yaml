@@ -1,0 +1,7 @@
+id: ALG_SIMONS_ALGORITHM
+name: Simon’s Algorithm
+type: algorithm
+requirement_sequence: "H, OR, H, MZ"
+points: 35
+deck_count: 2
+description: Finds a hidden periodicity with oracle queries and Hadamard interference.

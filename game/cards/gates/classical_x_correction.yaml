@@ -1,0 +1,13 @@
+id: GATE_CX
+name: Classical X-Correction
+type: gate
+symbol: CX
+rarity: rare
+complexity: 2
+description: Bit correction after Teleportation/Superdense
+deck_count: 4
+effect:
+  classical_correction: X
+tags:
+  - classical
+  - correction

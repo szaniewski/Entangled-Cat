@@ -1,0 +1,13 @@
+id: GATE_X
+name: Pauli-X
+type: gate
+symbol: X
+rarity: common
+complexity: 2
+description: Qubit negation (NOT gate)
+deck_count: 8
+effect:
+  not: true
+tags:
+  - single_qubit
+  - pauli

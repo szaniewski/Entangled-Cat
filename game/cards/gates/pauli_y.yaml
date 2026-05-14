@@ -1,0 +1,13 @@
+id: GATE_Y
+name: Pauli-Y
+type: gate
+symbol: Y
+rarity: uncommon
+complexity: 3
+description: Rotation around the Y-axis
+deck_count: 6
+effect:
+  rotation_axis: Y
+tags:
+  - single_qubit
+  - pauli
