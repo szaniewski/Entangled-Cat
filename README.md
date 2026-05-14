@@ -2,7 +2,7 @@
 
 ![Entangled Cat Logo](assets/logo-entangled-cat.png)
 
-> An open-source quantum-computing-inspired tabletop card game.
+> alizauj 
 
 Build quantum algorithms. Protect them from decoherence. Collapse the wave function before your opponents do.
 

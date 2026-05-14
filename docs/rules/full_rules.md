@@ -1,31 +1,117 @@
-# Full Rules
+This is a draft for the `docs/rules/full_rules.md` file. I’ve used a professional yet accessible "rulebook" tone, typical of modern strategy board games, while maintaining the quantum metaphors used in the project.
 
-## Objective
+---
 
-Build a functional quantum algorithm and execute it successfully. The first player to complete a valid algorithm or the player with the highest points after a fixed number of rounds wins.
+# 🐈 Entangled Cat: Full Rules of Play
 
-## Setup
+Welcome to **Entangled Cat**, the tabletop game where quantum mechanics meets competitive strategy. Your mission is to build functional quantum algorithms, stabilize your qubits, and trigger a successful measurement before your opponents collapse your system.
 
-- Each player receives a starting hand of gate and effect cards.
-- Place algorithm cards in a shared market.
-- Set the stability tracker to full.
+---
 
-## Turn structure
+## 🌌 1. The Core Concept
 
-1. Draw a card.
-2. Play up to two actions: play a gate, activate an effect, or defend.
-3. Optionally measure to complete an algorithm.
-4. Resolve attacks and stability changes.
+In *Entangled Cat*, you are a Quantum Engineer. You don't just "play cards"; you assemble **Quantum Circuits**.
 
-## Card types
+* **Gate Cards** are your building blocks ($H, X, CNOT$, etc.).
+* **Algorithm Cards** are your blueprints (your win conditions).
+* **Special Cards** represent the chaotic nature of the universe—decoherence, noise, and strategic interference.
 
-- `gate`: quantum operations like Hadamard or Oracle.
-- `algorithm`: long-term goals that require specific gates.
-- `attack`: disrupt opponents.
-- `defense`: protect your circuits.
-- `effect`: modify gameplay state.
+---
 
-## Win conditions
+## 🛠 2. Setup
 
-- Complete a valid algorithm.
-- Reach the end of the final round with the most points.
+1. **Separate the Decks:** Ensure the **Gate Deck**, **Algorithm Deck**, and **Special Deck** are shuffled individually.
+2. **Starting Hand:** Each player draws **5 cards** from the combined pool (or a mix agreed upon by players).
+3. **Active Zone:** Define a space in front of you as your **Quantum Register** (where you will play your gates).
+
+---
+
+## 🔄 3. Turn Structure
+
+Each turn consists of three distinct phases:
+
+### A. Draw Phase
+
+* **First Turn:** Draw 5 cards.
+* **Subsequent Turns:** Draw 1 card from any deck of your choice (Gate, Algorithm, or Special).
+
+### B. Action Phase
+
+During this phase, you may perform **any number** of the following actions:
+
+1. **Initialize a Qubit:** Play a **Gate Card** into your Register.
+2. **Plan an Objective:** Place an **Algorithm Card** face up near your Register.
+3. **Interfere:** Play a **Special Card** to disrupt an opponent or protect your own circuit.
+
+### C. Measurement Phase (The "Collapse")
+
+If you have an **Algorithm Card** and the **exact sequence of Gates** required to fulfill it:
+
+1. **Declare "Measurement!":** This halts the game.
+2. **Verification:** Arrange your gates in the specific order required by the algorithm.
+* *Warning:* If the order is incorrect or a gate is missing, the measurement fails (Lose 5 points).
+
+
+
+---
+
+## ⚔️ 4. Player Interaction & The Stack
+
+When a player declares **Measurement**, the system becomes unstable. This is the last chance for opponents to interfere.
+
+1. **The Intervention Window:** Opponents may play **Special Cards** (e.g., *Decoherence* to remove a gate, or *Swap* to change the order).
+2. **The Stack:** Cards are played one on top of another.
+3. **Resolution:** Resolve the stack from **Top to Bottom** (the last card played is the first to take effect).
+* *Example:* If Player A declares Measurement, Player B plays "Decoherence", and Player A plays "Shield", the Shield resolves first, protecting the gate from Decoherence.
+
+
+
+---
+
+## 📉 5. Measurement Results
+
+* **Success:** If the algorithm sequence remains intact after the Stack resolves:
+* The player keeps the Algorithm and Gate cards as **Scored Points**.
+* Special cards used in the battle are returned to the deck.
+
+
+* **Failure:** If the circuit is broken or incomplete:
+* All cards involved (Algorithm and Gates) are **discarded**.
+* The player earns 0 points (or -5 if the failure was due to a manual error).
+
+
+
+---
+
+## 🏆 6. Scoring Table
+
+| Algorithm Complexity | Gate Requirement | Point Value |
+| --- | --- | --- |
+| **Simple** | 2–3 Gates | 10 pts |
+| **Medium** | 4–5 Gates | 20 pts |
+| **Complex** | 6+ Gates / QFT | 30–40 pts |
+| **Disruption** | Successfully breaking an opponent's circuit | +5 pts |
+| **Failed Measurement** | Declaring measurement without a valid sequence | -5 pts |
+
+---
+
+## 🔚 7. Game End
+
+The game concludes when:
+
+1. The **Gate Deck** is exhausted.
+2. A predetermined number of turns is reached.
+
+**The player with the highest total points is crowned the Quantum Master.**
+
+---
+
+## 🧠 8. Key Quantum Terms for Players
+
+* **Decoherence:** In the game, this represents losing a card from your sequence due to environmental noise (or a mean opponent).
+* **Superposition ($H$ gate):** The gate that opens up possibilities. Use it to start most complex algorithms.
+* **Entanglement ($CNOT$):** Links two qubits. In-game, these are often the hardest sequences to protect but offer the highest rewards.
+
+---
+
+*“God does not play dice with the universe, but you will.”*
