@@ -1,0 +1,19 @@
+id: PRINT_DECOHERENCE_TRACK
+name: Decoherence Track
+type: printable
+page_size: A4
+description: Printable Decoherence Counter track for round-based game pacing.
+track:
+  start: 0
+  end: 20
+  event_positions:
+    - 5
+    - 10
+    - 15
+  end_game: 20
+instructions:
+  - "Place a token at position 0 at game setup."
+  - "Advance the token by 1 at the start of each round."
+  - "At 5, 10, and 15, trigger a global Decoherence Event."
+  - "When the token reaches 20, the game ends immediately."
+artwork_theme: "Fading coherence wave and quantum clock."

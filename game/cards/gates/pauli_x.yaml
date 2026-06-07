@@ -5,7 +5,7 @@ symbol: X
 rarity: common
 complexity: 2
 description: Qubit negation (NOT gate)
-deck_count: 8
+deck_count: 6
 effect:
   not: true
 tags:

@@ -20,9 +20,14 @@ In *Entangled Cat*, you are a Quantum Engineer. You don't just "play cards"; you
 
 ## 🛠 2. Setup
 
-1. **Separate the Decks:** Ensure the **Gate Deck**, **Algorithm Deck**, and **Special Deck** are shuffled individually.
-2. **Starting Hand:** Each player draws **5 cards** from the combined pool (or a mix agreed upon by players).
-3. **Active Zone:** Define a space in front of you as your **Quantum Register** (where you will play your gates).
+1. **Create One Main Deck:** Shuffle all Gate, Algorithm, and Special cards together into a single combined deck.
+2. **Laboratory Screens:** Each player takes a cardboard **Laboratory Screen** and places it with the artwork facing outward.
+3. **Draw Pile:** Place the combined deck face down in the center of the table.
+4. **Starting Hand:** Each player draws exactly **5 random cards** from the combined deck.
+5. **Secret Organization:** As cards are drawn, players keep them hidden behind their screen and organize them into the marked sections:
+   * **GATES** — gate cards and active circuit pieces
+   * **ALGORITHM** — the current algorithm and assembled gate sequence
+   * **DECOHERENCE** — disruption, defense, and reaction cards
 
 ---
 

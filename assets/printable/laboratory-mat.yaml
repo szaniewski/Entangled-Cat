@@ -1,0 +1,22 @@
+id: PRINT_LAB_MAT
+name: Laboratory Mat Template
+type: printable
+page_size: A4
+description: Printable template for the Laboratory Zone and Decoherence Track.
+components:
+  - section: GATES
+    label: "GATES"
+    instructions: "Organize your gate cards and active circuit here."
+  - section: ALGORITHM
+    label: "ALGORITHM"
+    instructions: "Place the algorithm card and assembled gate sequence here."
+  - section: DECOHERENCE
+    label: "DECOHERENCE"
+    instructions: "Keep disruption, defense, and special response cards here."
+  - section: DECOHERENCE_TRACK
+    label: "DECOHERENCE TRACK"
+    instructions: "Keep the global Decoherence counter token and event reminders here."
+artwork_theme: "Quantum lab, circuit diagrams, and entanglement patterns."
+notes:
+  - "Use with the Laboratory Screen to keep each player area clearly separated."
+  - "This mat is a guide for organizing cards and the global Decoherence track."

@@ -5,7 +5,7 @@ symbol: OR
 rarity: uncommon
 complexity: 3
 description: Black box f(x), action depends on algorithm
-deck_count: 6
+deck_count: 4
 effect:
   oracle: true
 tags:

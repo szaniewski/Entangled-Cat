@@ -1,0 +1,12 @@
+id: EFFECT_QUANTUM_CASCADE
+name: Quantum Cascade
+type: special
+rarity: rare
+complexity: 3
+description: Accelerate the global Decoherence Counter by 2 positions.
+deck_count: 2
+effect:
+  advance_decoherence: 2
+tags:
+  - global
+  - decoherence

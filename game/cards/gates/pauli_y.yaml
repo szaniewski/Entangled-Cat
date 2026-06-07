@@ -5,7 +5,7 @@ symbol: Y
 rarity: uncommon
 complexity: 3
 description: Rotation around the Y-axis
-deck_count: 6
+deck_count: 4
 effect:
   rotation_axis: Y
 tags:

@@ -1,0 +1,12 @@
+id: EFFECT_STABILIZE
+name: Stabilize
+type: special
+rarity: uncommon
+complexity: 2
+description: Reduce the global Decoherence Counter by 1.
+deck_count: 3
+effect:
+  reduce_decoherence: 1
+tags:
+  - defense
+  - decoherence

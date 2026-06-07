@@ -1,0 +1,15 @@
+id: CARD_LAB_SCREEN
+name: Laboratory Screen
+type: screen
+rarity: special
+deck_count: 4
+description: Physical player divider with quantum artwork. Helps organize GATES, ALGORITHM, and DECOHERENCE sections.
+effect:
+  organize_sections:
+    - GATES
+    - ALGORITHM
+    - DECOHERENCE
+tags:
+  - player_area
+  - organizer
+  - equipment

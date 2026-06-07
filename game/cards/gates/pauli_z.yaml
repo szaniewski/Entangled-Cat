@@ -5,7 +5,7 @@ symbol: Z
 rarity: uncommon
 complexity: 2
 description: Qubit phase shift
-deck_count: 6
+deck_count: 4
 effect:
   phase_shift: true
 tags:

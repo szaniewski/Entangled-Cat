@@ -41,15 +41,15 @@ Players aim to assemble complete sequences of quantum gates matching those on qu
 
 ### Setup
 
-**Three Decks in Play:**
+The game uses **one single main deck**. At setup, shuffle all Gate, Algorithm, and Special cards together into a single combined deck.
 
-| Deck | Purpose |
-|------|---------|
-| **Gate Deck** | H, X, Z, CNOT, MZ, MX and more |
-| **Algorithm Deck** | Deutsch-Jozsa, Grover, Teleportation, etc. |
-| **Special Deck** | Attacks, defense, effects |
-
-**Start:** Shuffle all three decks, each player gets 5 cards.
+* Place the combined deck face down in the center of the table as the draw pile.
+* Each player takes a cardboard **Laboratory Screen** and places it with the artwork facing outward.
+* As players draw cards, they keep them secretly behind their screen and organize them into the appropriate sections:
+  - **GATES**: gate cards and active circuit pieces
+  - **ALGORITHM**: the current algorithm and assembled gate sequence
+  - **DECOHERENCE**: disruption, defense, and reaction cards
+* Starting Hand: Each player draws exactly **5 random cards** from the combined deck.
 
 ### Gameplay - Turn Flow
 
