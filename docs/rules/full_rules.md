@@ -47,6 +47,7 @@ During this phase, you may perform **any number** of the following actions:
 1. **Initialize a Qubit:** Play a **Gate Card** into your Register.
 2. **Plan an Objective:** Place an **Algorithm Card** face up near your Register.
 3. **Interfere:** Play a **Special Card** to disrupt an opponent or protect your own circuit.
+4. **Quantum Fluctuation (Card Swap):** Exactly **once per turn**, you may discard exactly 2 cards from your hand or Laboratory to the global **Discard Pile** and immediately draw 2 new cards from the main draw deck. *Immediately after this draw, the main draw deck must be thoroughly reshuffled.* This action helps prevent hand deadlock and introduces unpredictability into your strategy.
 
 ### C. Measurement Phase (The "Collapse")
 
@@ -75,20 +76,35 @@ When a player declares **Measurement**, the system becomes unstable. This is the
 
 ## 📉 5. Measurement Results
 
-* **Success:** If the algorithm sequence remains intact after the Stack resolves:
-* The player keeps the Algorithm and Gate cards as **Scored Points**.
-* Special cards used in the battle are returned to the deck.
+When a Measurement resolves (whether successful or failed), **all cards involved must be immediately sent to the global Discard Pile**—no cards remain with any player. This ensures continuous circulation of the 100-card deck.
 
+* **Success:** If the algorithm sequence remains intact after the Stack resolves:
+  * The player **records the points** for the completed algorithm on their score tracker (pen and paper, digital tracker, or custom tokens).
+  * The Algorithm Card, all Gate cards in the sequence, and any Special cards used in the battle are **immediately discarded to the global Discard Pile**.
+  * **Scoring Bonus:** Disrupting an opponent's algorithm awards +5 points to the player who caused the disruption.
 
 * **Failure:** If the circuit is broken or incomplete:
-* All cards involved (Algorithm and Gates) are **discarded**.
-* The player earns 0 points (or -5 if the failure was due to a manual error).
+  * All cards involved (Algorithm and Gates) are **immediately discarded to the global Discard Pile**.
+  * The player earns 0 points (or records a -5 penalty if the failure was due to a manual error).
+  * Any Special cards used in defensive or attack reactions are also discarded.
 
 
 
 ---
 
-## 🏆 6. Scoring Table
+## 6. Deck Depletion & Discard Pile
+
+To maintain continuous card circulation in the 100-card deck:
+
+* **Main Draw Deck Exhausted:** If the main draw deck runs out of cards before the end of the game:
+  * Immediately shuffle the entire global **Discard Pile** to form a new main draw deck.
+  * Continue play without interruption.
+
+* **No Cards Available:** If both the draw deck and Discard Pile are empty simultaneously (extremely rare), the current player's draw phase is skipped, but gameplay continues.
+
+---
+
+## 🏆 7. Scoring Table & Tracking
 
 | Algorithm Complexity | Gate Requirement | Point Value |
 | --- | --- | --- |
@@ -98,9 +114,16 @@ When a player declares **Measurement**, the system becomes unstable. This is the
 | **Disruption** | Successfully breaking an opponent's circuit | +5 pts |
 | **Failed Measurement** | Declaring measurement without a valid sequence | -5 pts |
 
+**Score Tracking:** Players do not keep physical cards to represent points. Instead, each player must track their score using an external method such as:
+* Pen and paper (scoresheet)
+* A digital tracker or app
+* Custom tokens or markers on a scoreboard
+
+Points are recorded **instantly upon successful measurement** before cards are sent to the Discard Pile.
+
 ---
 
-## 🔚 7. Game End
+## 🔚 8. Game End
 
 The game concludes when:
 
@@ -111,7 +134,7 @@ The game concludes when:
 
 ---
 
-## 🧠 8. Key Quantum Terms for Players
+## 🧠 9. Key Quantum Terms for Players
 
 * **Decoherence:** In the game, this represents losing a card from your sequence due to environmental noise (or a mean opponent).
 * **Superposition ($H$ gate):** The gate that opens up possibilities. Use it to start most complex algorithms.
